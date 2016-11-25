@@ -11,6 +11,7 @@ var gulpif = require('gulp-if');
 var Elixir = require('laravel-elixir');
 
 var Task = Elixir.Task;
+var config = Elixir.config;
 
 Elixir.extend('angular', function(src, output, outputFilename) {
 
