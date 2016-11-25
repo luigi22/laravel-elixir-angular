@@ -1,4 +1,4 @@
-# [DEPRECATED] 
+# [DEPRECATED]
 I would personally recommend to use Browserify or Webpack. It scales much better and it's not forcing any paricular structure to your code.
 
 ## Usage
@@ -8,7 +8,7 @@ This is a simple wrapper around Laravel Elixir. Add it to your Elixir-enhanced G
 ```
 var elixir = require('laravel-elixir');
 
-require('laravel-elixir-angular');
+require('laravel-elixir-angular-js');
 
 elixir(function(mix) {
    mix.angular();
@@ -23,7 +23,7 @@ Directory structure in `resources/assets/angular` is not forced, the only limita
 var foo = angular.module('foo', []);
 ```
 
-Example use of a nested structure might look like this: 
+Example use of a nested structure might look like this:
 ```
  /resources
      /angular
